@@ -27,8 +27,9 @@
 #### Запуск:
 
 Для установки тестового виртуального окружения выполните следующие команды:
+#### Windows:
 ```sh
-python3 -m venv venv
+virtualenv venv
 venv/Scripts/activate
 pip install -r requirements.txt
 ```
